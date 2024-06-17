@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Realtime Chat App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Chat App</h2>
+
+      <div class="form-container">
+        <form action="chat.html" class="form">
+          <div class="form-field">
+            <label for="username">
+              <i class="fa fa-user icon"></i>
+              <span class="hidden">Username</span>
+            </label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              class="form-input"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="form-field">
+            <label for="room"
+              ><i class="fa fa-tasks icon"></i>
+              <span class="hidden">Room</span></label
+            >
+            <select name="room" id="room" class="form-input">
+              <option value="NodeJs">NodeJs</option>
+              <option value="ReactJs">ReactJs</option>
+              <option value="NextJs">NextJs</option>
+              <option value="Angular">Angular</option>
+              <option value="RxJs">RxJs</option>
+              <option value="JavaScript">JavaScript</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <input type="submit" class="btn" value="Join Chat" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
